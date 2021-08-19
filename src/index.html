@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+    <main class="cards">
+        <div class="card card-icons">
+            <a href=""><img src="../images/logo.svg" alt="logo"></a>
+            <div class="card__icons">
+                <div class="icon">
+                    <a href="#"><img src="../images/icon-document.svg" alt="icon-document"> </a> 
+                </div>
+                <div class="icon">
+                    <a href="#"> <img src="../images/icon-folder.svg" alt="icon-folder"> </a>
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="../images/icon-upload.svg" alt="icon-upload"></a>
+                </div>
+            </div>
+        </div>
+        <div class="card card-progress">
+            <p>You have used <span>815 GB</span> of your storage</p>
+            <progress max="100" value="85"></progress>
+            <div class="value">
+                <span>0 GB</span>
+                <span>100 GB</span>
+            </div>
+
+            <div class="absolute">
+                <span>185</span> GB LEFT
+            </div>
+          
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
