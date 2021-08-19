@@ -32,11 +32,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
+    
+
     @include tabplus{
-        background: url('../../images/bg-desktop.png');
+        background-color: var(--Very-Dark-Blue);
+        background-image: url('../../images/bg-desktop.png');
         background-repeat: no-repeat;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
+        background-size: contain;
+        background-position: center 50vh;
     }
 }
